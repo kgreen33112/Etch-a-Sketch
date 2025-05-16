@@ -10,3 +10,14 @@ function makeGrid(rows, cols) {
 };
 
 makeGrid(16, 16)
+
+grid-item.addEventListener('mouseover', (e) => {
+    e.target.style.color = "purple";
+
+    setTimeout(() => {
+        e.target.style.color = "";
+    },  500);
+
+},
+false,
+);

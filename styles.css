@@ -16,5 +16,9 @@
     margin: 5px;
     background-color: #f0f0f0;
     border: 2px solid black;
+}
+
+div .grid-item:hover {
+    background-color: purple;
     
 }
