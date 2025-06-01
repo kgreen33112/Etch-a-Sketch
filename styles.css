@@ -1,24 +1,16 @@
-
-
 .grid-container {
     display: flex;
     flex-wrap: wrap;
     width: 900px;
-    height: 800px; 
+    height: 800px;
     border: 1px solid black;
 }
 
 .grid-item {
     box-sizing: border-box;
-    
-    width: calc(10% - 45px); 
-    height: calc(10% - 45px); 
+    width: calc(10% - 45px);
+    height: calc(10% - 45px);
     margin: 5px;
     background-color: #f0f0f0;
     border: 2px solid black;
-}
-
-div .grid-item:hover {
-    background-color: purple;
-    
 }

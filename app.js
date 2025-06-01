@@ -7,17 +7,13 @@ function makeGrid(rows, cols) {
         
         container.appendChild(cell).className = "grid-item";
     };
+
+    const gridItems = document.querySelectorAll('.grid-item');
+    gridItems.forEach(item => {
+        item.addEventListener('mouseover', function() {
+            this.style.backgroundcolor = "purple";
+        });
+    });
 };
 
 makeGrid(16, 16)
-
-grid-item.addEventListener('mouseover', (e) => {
-    e.target.style.color = "purple";
-
-    setTimeout(() => {
-        e.target.style.color = "";
-    },  500);
-
-},
-false,
-);
