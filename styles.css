@@ -1,16 +1,49 @@
 .grid-container {
     display: flex;
-    flex-wrap: wrap;
-    width: 900px;
-    height: 800px;
-    border: 1px solid black;
-}
-
-.grid-item {
-    box-sizing: border-box;
-    width: calc(10% - 45px);
-    height: calc(10% - 45px);
-    margin: 5px;
-    background-color: #f0f0f0;
+    flex-direction: column;
+    gap: 2px;
+  }
+  .row {
+    display: flex;
+    gap: 2px;
+  }
+  .cell {
+    height: 50px;
+    width: 50px;
     border: 2px solid black;
-}
+  }
+  .color-choice {
+    display: flex;
+    flex-direction: column;
+  }
+  .color-container {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 5px;
+  }
+  .blk {
+    background-color: black;
+  }
+  .red {
+    background-color: red;
+  }
+  
+  .blue {
+    background-color: blue;
+  }
+  
+  .green {
+    background-color: green;
+  }
+  
+  .yellow {
+    background-color: yellow;
+  }
+  
+  .orange {
+    background-color: orange;
+  }
+  
+  .purple {
+    background-color: purple;
+  }
